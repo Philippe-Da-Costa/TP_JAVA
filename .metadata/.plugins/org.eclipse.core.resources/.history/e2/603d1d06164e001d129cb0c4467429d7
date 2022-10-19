@@ -1,0 +1,15 @@
+
+public class Triparams {
+
+	public static void main(String[] args) {
+		System.out.println("L'argument 1 est: "+args[0]);
+		System.out.println("L'argument 1 est: "+args[1]);
+		System.out.println("L'argument 1 est: "+args[2]);
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println("L'argument 1 est: "+args[0]);
+		System.out.println("L'argument 1 est: "+args[1]);
+		System.out.println("L'argument 1 est: "+args[2]);
+	}
+}

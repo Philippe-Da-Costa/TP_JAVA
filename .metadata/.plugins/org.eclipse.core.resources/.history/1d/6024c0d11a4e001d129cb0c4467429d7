@@ -1,0 +1,10 @@
+package lesTableaux1;
+
+public class Tableaux04ArgsEtIteration {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

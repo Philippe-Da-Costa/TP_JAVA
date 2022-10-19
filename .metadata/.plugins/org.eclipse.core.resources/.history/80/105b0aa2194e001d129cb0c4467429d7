@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+public class Triparams {
+	
+	public static void main(String[] args) {
+//		System.out.println("L'argument 1 est: "+args[0]);
+//		System.out.println("L'argument 1 est: "+args[1]);
+//		System.out.println("L'argument 1 est: "+args[2]);
+		
+		Arrays.sort(args);
+		for(String el:args)
+			System.out.println("arguments: "+el+(1++));
+		
+	
+		
+
+
+
+		
+		
+		
+		
+		
+	}
+}

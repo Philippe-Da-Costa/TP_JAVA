@@ -1,4 +1,4 @@
-package Exercice_5_Version1_0;
+
 
 import java.util.Scanner;
 

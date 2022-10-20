@@ -1,4 +1,4 @@
-package Exercice_5_Version1_0;
+
 
 public class MultiplesV1 {
 	 static final int nbDiv=7;

@@ -18,10 +18,5 @@ public class Exo6_03 {
 		System.out.printf("notes=%s\n",Arrays.toString(notes));
 		
 		sc.close();
-		}
-	public static void main(String[] argsous) {
+		}}
 	
-	}
-	
-	
-	}

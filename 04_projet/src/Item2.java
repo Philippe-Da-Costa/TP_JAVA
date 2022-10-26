@@ -24,3 +24,4 @@ public static void main(String[] args) {
 	}else {System.out.println( nb1/nb2);}
 }
 }
+3

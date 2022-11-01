@@ -51,7 +51,7 @@ public class Math {
 
     public static BigDecimal dollarToEuro(BigDecimal dollar) {
 
-        return dollar.divide(TAUX_EURO_DOLLAR, 4 , RoundingMode.HALF_UP);
+        return dollar.divide(TAUX_EURO_DOLLAR, 2 , RoundingMode.HALF_UP);
     }
 	
 	

@@ -8,51 +8,49 @@ import javax.swing.JOptionPane;
 import fr.afpa.math.Math;
 
 public class Convertisseur {
-	 public static Scanner scanner = new Scanner(System.in);
-	    public static BigDecimal val;
-	    public static BigDecimal conVal;
-	    public static String saisie1;
-	    public static String saisie2;
-
+	        //mes variables
+	    public static Scanner scanner = new Scanner(System.in);
+	    public static BigDecimal convert;
+	    public static String choice;
+	    public static String value;
+	    
 	    public static void main(String[] args) {
-	        ///////////////////// AVEC JOPTIONPANE /////////////////
+	    	do {
+	            choice = JOptionPane.showInputDialog("Convertir en Dollar $ (Taper 1) ou convertir en  Euros € (Taper 2)");
 
-	        do {
-	            saisie1 = JOptionPane.showInputDialog("Convertir en Dollar $ (Taper 1) ou convertir en  Euros € (Taper 2)");
-
-	            if (saisie1 != null) {
-	                long choix = Long.parseLong(saisie1);
+	            if (choice != null) {
+	                long choix = Long.parseLong(choice);
 
 	                if (choix != 1 && choix != 2) {
 	                    JOptionPane.showMessageDialog(null, "Je n'ai pas compris votre choix");
 
 	                } else if (choix == 1) {
 
-	                    saisie2 = JOptionPane
+	                    value = JOptionPane
 	                            .showInputDialog("Veuillez saisir la valeur en Euro € a convertir en Dollar $");
 
-	                    BigDecimal test = new BigDecimal(saisie2);
+	                    BigDecimal test = new BigDecimal(value);
 
-	                    conVal = Math.euroToDollar(test);
+	                    convert = Math.euroToDollar(test);
 
-	                    JOptionPane.showMessageDialog(null, "La valeur en dollars est de " + conVal + " $");
+	                    JOptionPane.showMessageDialog(null, "La valeur en dollars est de " + convert + " $");
 
 	                } else if (choix == 2) {
 
-	                    saisie2 = JOptionPane
+	                    value = JOptionPane
 	                            .showInputDialog("Veuillez saisir la valeur en Dollar $ a convertir en Euro €");
 
-	                    BigDecimal test = new BigDecimal(saisie2);
+	                    BigDecimal test = new BigDecimal(value);
 
-	                    conVal = Math.dollarToEuro(test);
+	                    convert = Math.dollarToEuro(test);
 
-	                    JOptionPane.showMessageDialog(null, "La valeur en euros est de " + conVal + " € ");
+	                    JOptionPane.showMessageDialog(null, "La valeur en euros est de " + convert + " € ");
 
 	                }
 
 	            }
 
-	        } while (saisie1 != null);
+	        } while (choice != null);
 
 	        System.exit(0);
 }}

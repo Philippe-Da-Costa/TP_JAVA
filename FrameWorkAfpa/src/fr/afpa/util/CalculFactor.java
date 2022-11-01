@@ -13,8 +13,6 @@ public class CalculFactor {
 		long nb = sc.nextLong();
 		System.out.println("Methode non  recursive  " + Math.factorielleFor(nb));
 		System.out.println("Méthode recursive  " + Math.factorielle(nb));
-		//System.out.printf("Méthode recursive %s " , Math.factorielle(nb));
-
 	}
 
 }

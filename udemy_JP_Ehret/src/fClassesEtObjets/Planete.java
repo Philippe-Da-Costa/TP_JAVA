@@ -8,5 +8,17 @@ public class Planete {
 	String nom;
 	String matiere;
 	long diametre;
+	
+    public  void revolution(){
+   	 
+   	 System.out.println("Je suis la planète "+ nom +"  et je tourne autour de mon étoile.");
+      
+  }
+	
+	   public  void rotation(){
+           System.out.println("Je suis la planète "+nom+" et je tourne sur moi-même. ");
+       }
+       
+    
 
 }

@@ -54,12 +54,20 @@ public class MainPlanete {
 		pluton.matiere="Gazeuse";
 		pluton.diametre= 2_300;
 		
+		Planete planeteX = new Planete();
 		
-	
-	
-	System.out.println(jupiter.nom+" est une planète "+ jupiter.matiere + " avec un diamètre de "+jupiter.diametre+" kilomètres");
+		System.out.println(jupiter.nom+" est une planète "+ jupiter.matiere + " avec un diamètre de "+jupiter.diametre+" kilomètres");
+		System.out.println();
+		System.out.println("****************************************************************");
+		System.out.println("                       planèteX null  :");
+		System.out.println("****************************************************************");
+		System.out.println(planeteX.nom+" est une planète "+ planeteX.matiere + " avec un diamètre de "+planeteX.diametre+" kilomètres");
 
+		neptune.revolution();
+		mars.rotation();
 	}
+	
+	
 
 }
 //Jupiter est une planète Gazeuse avec un diamètre de 142984 kilomètres.

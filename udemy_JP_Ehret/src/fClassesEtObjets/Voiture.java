@@ -8,5 +8,12 @@ public class Voiture {
 	boolean automatique;        // false par defaut
 	String couleur;             // null par defaut
 	
+	//methodes
+	
+		public void klaxonner() {
+			System.out.println("tuttuuuuut!!!!");
+
+		}
+	
 	
 }

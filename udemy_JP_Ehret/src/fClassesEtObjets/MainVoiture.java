@@ -12,6 +12,11 @@ public class MainVoiture {
 		System.out.printf("la voiture de Michel est %s et a  %d portes" 
 				,voitureDeMichel.couleur, voitureDeMichel.nbPortes);
 		
+		System.out.println(	);
+		voitureDeMichel.klaxonner();
+		
+		
+		
 
 	}
 
